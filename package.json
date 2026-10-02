@@ -1,0 +1,20 @@
+{
+  "name": "today-live-news",
+  "version": "1.0.0",
+  "description": "TODAY LIVE NEWS - Live Bilingual Hindi & English News Portal with AI & Admin Panel",
+  "main": "server/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev:server": "node --watch server/server.js",
+    "dev:client": "npm.cmd --prefix client run dev",
+    "build:client": "npm.cmd --prefix client run build",
+    "build": "npm.cmd --prefix client run build"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1",
+    "xml2js": "^0.6.2"
+  }
+}
